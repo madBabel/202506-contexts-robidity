@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Show Info
         run: |
-            echo "Nombre del evento: ${{github.event}}"
+            echo "Nombre del evento: ${{github.event_name}}"
             echo "Ref: ${{github.ref_name}}"
 
       - name: Retrieve Variable
